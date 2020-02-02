@@ -1,0 +1,11 @@
+  on: [pull_request]
+  jobs:
+    autolabeler-codeowners:
+      runs-on: ubuntu-latest
+      name: Publish docs to confluence
+      steps:
+      - uses: actions/checkout@v1
+      - name: autolabel PRs with CODEOWNERS
+        uses: pratikmallya/autolabeler-codeowners@master
+        with:
+          githubToken: ${{ secrets.githubToken }}

@@ -6,6 +6,6 @@
       steps:
       - uses: actions/checkout@v1
       - name: autolabel PRs with CODEOWNERS
-        uses: pratikmallya/autolabeler-codeowners@master
+        uses: pratikmallya/autolabeler-codeowners@releases/v1
         with:
           githubToken: ${{ secrets.githubToken }}

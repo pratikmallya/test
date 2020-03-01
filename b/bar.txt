@@ -3,3 +3,4 @@ baz
 bat
 some
 to
+automerge

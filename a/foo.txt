@@ -6,6 +6,3 @@ bh
 b
 extended text
 even
-ha
-oh
-no
